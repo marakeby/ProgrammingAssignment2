@@ -1,11 +1,16 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makes a cashed matrix, stores the data matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   ## 'x' is a Invertible matrix
-  
+  ## returns a list with fields 
+        ## set -> set the data matrix
+        ## get -> returns the data matrix
+        ## setinverse -> set the inverse of the matrix
+        ## get inverse -> get the inverse of the matrix
+        
   ## Example Usage: 
   ## c = rbind(c(1, -1/4), c(-1/4, 1))  
   ## cash <-makeCacheMatrix(c)
@@ -29,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
-  
+    
   ## Example Usage: 
   ## c = rbind(c(1, -1/4), c(-1/4, 1))  
   ## cash <-makeCacheMatrix(c)
